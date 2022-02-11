@@ -13,6 +13,7 @@ Before applying the models on test data, use pd.get_dummies to convert categoric
 6                     SVC  0.873473   0.855653  0.904262  0.878274
 
 ===========RF============
+
 Confusion Matrix:
 
  [[ 92  17]
