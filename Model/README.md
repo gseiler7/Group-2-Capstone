@@ -31,17 +31,11 @@ Matthews Corr: 0.7208353215797065
 Confusion Matrix:
 
  [[ 92  17]
- 
  [ 11 110]]
 
 Accuracy: 0.8782608695652174
-
 Precision: 0.8440366972477065
-
 Misclassification: 0.12173913043478261
-
 Specificity: 0.8661417322834646
-
 Sensitivity: 0.8932038834951457
-
 Matthews Corr: 0.7562302202339356
