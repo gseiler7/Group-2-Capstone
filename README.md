@@ -9,6 +9,6 @@ We are exploring Heart Disease Risk Factors and Predictors.
 
 ## File Structure
 * Data - contains all datasets used, or links to datasets too large to store on Github.
-* Python Code - contains all code files for the project, including machine learning code and preliminary data exploration code.
+* Code - contains all code files for the project, including machine learning code and preliminary data exploration code.
 * Documents - contains all non data/code documents. Executive summaries, napkins, other.
 * Project Specifications - contains all project deliverables properly named.
