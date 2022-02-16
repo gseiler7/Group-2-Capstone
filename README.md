@@ -4,7 +4,7 @@
 [Colin Beveridge](https://github.com/colinbeveridge), [Ben Grudt](https://github.com/GrudtB), [Grace Seiler](https://github.com/gseiler7), [Hang Zhang Cao](https://github.com/Hang1225)
 
 ## Motivation
-This project was created as the Capstone assessment of Genesis10's Dev10 program - Data Professional track.
+This project was created as the Capstone assessment of Genesis10's [Dev10](https://www.genesis10.com/dev10) program - Data Professional track.
 The project idea is to serve a hypothetical client, with the goal of improving accurate diagnoses for patients experiencing chest pain or 
 wanting to get their heart examined, while minimizing costs. The client will establish clinics in locations recommended by the group, with 
 the intention of serving the largest number of patients in need of these services. 
