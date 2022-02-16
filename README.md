@@ -15,7 +15,7 @@ the intention of serving the largest number of patients in need of these service
 * Data: contains all datasets used
   * [Dataset used for heart disease prediction ML](https://github.com/gseiler7/Group-2-Capstone/blob/main/Data/heart.csv)
   * Datasets used for determining client clinic locations - [CDC - State Level](https://github.com/gseiler7/Group-2-Capstone/blob/main/Data/CDC_RiskFactor_Data.csv), [CDC - Metro Level](https://github.com/gseiler7/Group-2-Capstone/blob/main/Data/CDC_Metro_Data.csv), [how to access Census data](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/RepeatableETLReport.pdf)
-* Documents: contains all working non data/code documents
+* Documents: contains all working drafts of non data/code documents
 * Model: contains all output .model files for each model tested by group
   * [Pre-modeling Instructions](https://github.com/gseiler7/Group-2-Capstone/blob/main/Model/README.md)
   * [Bernoulli NB](https://github.com/gseiler7/Group-2-Capstone/blob/main/Model/BernoulliNB.model)
