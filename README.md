@@ -11,10 +11,10 @@ the intention of serving the largest number of patients in need of these service
 
 ## File Structure
 * Code: contains all code files for the project, including machine learning code and preliminary data exploration code
-  * Heart_ML_Improve.ipynb - final ML version used in predicting heart disease
+  * [Final ML version used in predicting heart disease](https://github.com/gseiler7/Group-2-Capstone/blob/main/Code/Heart_ML_Improve.ipynb)
 * Data: contains all datasets used
   * Dataset used for heart disease prediction ML - heart.csv
   * Datasets used for determining client clinic locations - CDC_Risk_Factor_Data.csv, CDC_Metro_Data.csv (see RepeatableETLReport.pdf in Project Specifications to access Census data)
 * Documents: contains all working non data/code documents
 * Model: contains all output .model files for each model tested by group
-* Project Specifications - contains all final project deliverables used for project ideation, planning, design, and reporting (properly named)
+* Project Specifications: contains all final project deliverables used for project ideation, planning, design, and reporting (properly named)
