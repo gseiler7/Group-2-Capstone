@@ -14,7 +14,7 @@ the intention of serving the largest number of patients in need of these service
   * Heart_ML_Improve.ipynb - final ML version used in predicting heart disease
 * Data: contains all datasets used
   * Dataset used for heart disease prediction ML - heart.csv
-  * Datasets used for determining client clinic locations - CDC_Risk_Factor_Data.csv, CDC_Metro_Data.csv, CENSUS??
+  * Datasets used for determining client clinic locations - CDC_Risk_Factor_Data.csv, CDC_Metro_Data.csv (see ETL to access Census data)
 * Documents: contains all working non data/code documents
 * Model: contains all output .model files for each model tested by group
 * Project Specifications - contains all final project deliverables used for project ideation, planning, design, and reporting (properly named)
