@@ -1,4 +1,6 @@
 import pandas as pd 
+import os
+root = os.path.dirname(os.getcwd()) # get parent root dir 
 
 # Get data within range: Same Sex, age +- 8
 def getdata(df, sex, age, threshold, code):
@@ -19,9 +21,9 @@ def ImputeMissing(df, threshold):
 
     return df
 
-df = pd.read_csv('Data/patient_data_train.csv')
+df = pd.read_csv(root + '/Data/patient_data_train.csv')
 
-df = ImputeMissing(df, 8)
+df = ImputeMissing(df, 10)
 
 
 # Construct ML
@@ -57,7 +59,7 @@ from sklearn.svm import SVC
 import joblib
 def model_comparison(x,y):
     all_model = [LogisticRegression(max_iter=10000), KNeighborsClassifier(), DecisionTreeClassifier(random_state = 41),
-                RandomForestClassifier(random_state = 41), BernoulliNB(), GaussianNB(), SVC()]
+                RandomForestClassifier(random_state = 41), BernoulliNB(), GaussianNB(), SVC(random_state = 41)]
 
     recall = []
     precision = []
@@ -68,6 +70,8 @@ def model_comparison(x,y):
              'RandomForestClassifier', 'BernoulliNB', 'GaussianNB', 'SVC']
     count = 0
     for model in all_model:
+
+
 
         c = 5 # small dataset
         cv = cross_val_score(model, x, y, scoring='accuracy', cv=c, n_jobs = -1).mean()
@@ -84,7 +88,7 @@ def model_comparison(x,y):
 
         m = model
         m.fit(x,y)
-        joblib.dump(m,f'{modelname[count]}.model')
+        joblib.dump(m,f'{root}/Model/{modelname[count]}.model')
         count += 1
 
     score = pd.DataFrame({'Model': modelname, 'Accuracy' : accuracy, 'Precision': precision, 'Recall': recall, 'F1':f1})
@@ -93,9 +97,13 @@ def model_comparison(x,y):
     return score
 
 
+X_sm_std = Standardizing(X_sm)
+# Feature reduction
+list2 = ["RestingECG_ST"\
+         ,"ST_Slope_Down"\
+         , "ChestPainType_TA"\
+         , "ChestPainType_ATA"\
+         , "Cholesterol"\
+         , "ChestPainType_NAP"]
 
-model = model_comparison(X_sm,y_sm)
-print(model)
-
-rf = RandomForestClassifier(random_state = 41)
-rf.fit(X_sm,y_sm)
+model_comparison(X_sm_std.drop(list2,axis=1),y_sm)
