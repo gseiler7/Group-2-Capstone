@@ -25,6 +25,8 @@ the intention of serving the largest number of patients in need of these service
   * [Logistic Regression](https://github.com/gseiler7/Group-2-Capstone/blob/main/Model/LogisticRegression.model)
   * [Random Forest Classifier](https://github.com/gseiler7/Group-2-Capstone/blob/main/Model/RandomForestClassifier.model)
   * [SVC](https://github.com/gseiler7/Group-2-Capstone/blob/main/Model/SVC.model)
+* Presentation Images: contains images used in presentation
+  * [Machine Learning Visualizations](https://github.com/gseiler7/Group-2-Capstone/blob/main/Presentation%20Images/MachineLearningPowerBIVisualizations.pdf)
 * Project Specifications: contains all final project deliverables used for project ideation, planning, design, and reporting (properly named)
   * [Project Plan](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/ProjectPlan.pdf)
   * [Data Sources](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/DataSources.pdf)
