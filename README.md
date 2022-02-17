@@ -31,3 +31,4 @@ the intention of serving the largest number of patients in need of these service
   * [ETL Report](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/RepeatableETLReport.pdf)
   * [Dashboard](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/CapstoneDashboard.pbix)
   * [Executive Report](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/ProjectExecutiveReport.pdf)
+  * [Presentation Slides](https://github.com/gseiler7/Group-2-Capstone/blob/main/Project%20Specifications/CapstonePresentationSlides.pdf)
